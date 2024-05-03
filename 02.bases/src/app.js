@@ -1,1 +1,4 @@
-console.log("Hellowww from app.js");
+
+const { emailTemplate } =  require('./js-fundation/01-template');
+
+console.log(emailTemplate);
