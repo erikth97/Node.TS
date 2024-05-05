@@ -1,20 +1,31 @@
-// Factory Functions: son funciones que crean funciones a partir de si mismas
-const { getAge, getUUID } = require('../plugins');
 
+// const { getUUID } = require('../plugins/get-id.plugin');
+// const { getAge } = require('../plugins/get-age.plugin');
+// const { getAge, getUUID } = require('../plugins');
 
-const buildPerson = ({name, bithday}) => {
+const buildMakePerson = ({ getUUID, getAge }) => {
 
-    return {
+    return ({ name, birthdate }) => {
+  
+      return {
         id: getUUID(),
         name: name,
-        bithday: bithday,
-        age: getAge(bithday),
+        birthdate: birthdate,
+        age: getAge(birthdate),
+      }
     }
-}
-
-
-const obj = { name: 'Erik', bithday: '1997-11-10'};
-
-const Erik = buildPerson( obj );
-
-console.log(Erik);
+  
+  }
+  
+  
+  // const obj = { name: 'Erik', birthdate: '1997-11-10' };
+  
+  // const john = buildPerson( obj );
+  
+  
+  // console.log(john);
+  
+  
+  module.exports = {
+    buildMakePerson,
+  }

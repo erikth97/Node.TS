@@ -1,13 +1,14 @@
-const getAgePlugin = require('get-age');
+const { v4: uuidv4 } = require('uuid');
 
 
-const getAge = (birthday) => {
-    if (!birthday) return new Error('bithday is required');
+// getUUID is a function that returns a UUID
 
-    return getAgePlugin(birthday);
+const getUUID = () => {
+
+  return uuidv4();
 }
 
 
 module.exports = {
-    getAge,
+  getUUID,
 }
