@@ -1,12 +1,15 @@
 
 
-const getPokemonById = (id) => {
+const getPokemonById = async (id) => {
     const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
 
-    return fetch(url)
-        .then((resp) => resp.json())
+    const resp = await fetch(url);
+    const pokemon = await resp.json();
 
-        .then((pokemon) => pokemon.name );
+
+
+
+    return pokemon.name;
 
 }
 

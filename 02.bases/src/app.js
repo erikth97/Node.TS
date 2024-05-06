@@ -8,7 +8,7 @@ const { getAge, getUUID } = require('./plugins');
 const getPokemonById = require('./js-fundation/06-promises');
 
 
-getPokemonById(4) 
+getPokemonById(5) 
     .then((pokemon) => console.log({pokemon}))
     .catch((err) => console.log('intenta de nuevo'))
     .finally(() => console.log('Finalmente'))
