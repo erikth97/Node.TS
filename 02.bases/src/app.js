@@ -5,13 +5,18 @@ const { getAge, getUUID } = require('./plugins');
 // const { getUserById } = require('./js-fundation/03-callbacks');
 // const { getUserById } = require('./js-fundation/04-arrow');
 // const { buildMakePerson } = require('./js-fundation/05-factory')
-const getPokemonById = require('./js-fundation/06-promises');
+// const getPokemonById = require('./js-fundation/06-promises');
+const {buildLogger} = require('./plugins');
+
+const logger = buildLogger('app.js');
+
+logger.log('HellowLogger')
 
 
-getPokemonById(5) 
-    .then((pokemon) => console.log({pokemon}))
-    .catch((err) => console.log('intenta de nuevo'))
-    .finally(() => console.log('Finalmente'))
+// getPokemonById(5) 
+//     .then((pokemon) => console.log({pokemon}))
+//     .catch((err) => console.error('intenta de nuevo'))
+//     .finally(() => console.log('Finalmente'))
 
 
 
