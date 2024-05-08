@@ -11,6 +11,7 @@ const {buildLogger} = require('./plugins');
 const logger = buildLogger('app.js');
 
 logger.log('HellowLogger')
+logger.error('Esto es un error');
 
 
 // getPokemonById(5) 

@@ -1,1 +1,6 @@
 {"level":"info","message":"HellowLogger","service":"app.js"}
+{"level":"info","message":"HellowLogger","service":"app.js"}
+{"level":"info","message":"HellowLogger","service":"app.js"}
+{"level":"error","message":"error Esto es un error","service":"app.js"}
+{"level":"info","message":"HellowLogger","service":"app.js","timestamp":"2024-05-08T02:21:42.579Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T02:21:42.582Z"}
