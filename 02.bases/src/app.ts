@@ -1,3 +1,4 @@
+import { getPokemonById } from "./js-fundation/06-promises";
 import { buildLogger } from "./plugins/logger.plugin"
 // const { getAge, getUUID } = require('./plugins');
 
