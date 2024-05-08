@@ -4,3 +4,25 @@
 {"level":"error","message":"error Esto es un error","service":"app.js"}
 {"level":"info","message":"HellowLogger","service":"app.js","timestamp":"2024-05-08T02:21:42.579Z"}
 {"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T02:21:42.582Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:20:49.307Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:20:49.309Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:29:46.507Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:29:46.510Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:31:08.641Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:31:08.672Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:33:12.008Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:33:12.011Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:33:52.125Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:33:52.129Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:36:16.474Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:36:16.477Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:36:42.341Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:36:42.343Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:39:34.067Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:39:34.071Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:40:10.593Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:40:10.596Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:40:51.522Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:40:51.525Z"}
+{"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-08T17:44:38.172Z"}
+{"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T17:44:38.176Z"}
