@@ -1,6 +1,6 @@
-import { getPokemonById } from "./js-fundation/06-promises";
-import { buildLogger } from "./plugins/logger.plugin"
-// const { getAge, getUUID } = require('./plugins');
+// import { getPokemonById } from "./js-fundation/06-promises";
+// import { buildLogger } from "./plugins/logger.plugin"
+// // const { getAge, getUUID } = require('./plugins');
 
 
 // // const { emailTemplate } =  require('./js-fundation/01-template');
@@ -11,10 +11,10 @@ import { buildLogger } from "./plugins/logger.plugin"
 // // const getPokemonById = require('./js-fundation/06-promises');
 // const {buildLogger} = require('./plugins');
 
-const logger = buildLogger('app.js');
+// const logger = buildLogger('app.js');
 
-logger.log('funciona correctamente')
-logger.error('Esto es un error');
+// logger.log('funciona correctamente')
+// logger.error('Esto es un error');
 
 
 // // getPokemonById(5) 
