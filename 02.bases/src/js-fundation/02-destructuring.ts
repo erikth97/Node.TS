@@ -5,5 +5,5 @@
 
 const { SHELL, npm_lifecycle_script } = process.env;
 
-const characters = ['Flash','Superman', 'Green Lanter','Batman'];
+export const characters = ['Flash','Superman', 'Green Lanter','Batman'];
 const [, , ,Superman] = characters;
