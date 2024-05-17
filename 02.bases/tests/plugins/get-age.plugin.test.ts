@@ -22,5 +22,18 @@ describe('plugins/get-age.plugin.ts', () => {
 
     });
 
+
+    test('getAge should return 0 years', () => {
+
+        const spy = jest.spyOn(Date.prototype, 'getFullYear').mockReturnValue(1997);
+
+        const birthdate = '1997-11-10';
+        const age = getAge(birthdate);
+
+        expect(age).toBe(0);
+        expect(spy).toHaveBeenCalledWith();
+        
+    })
+
     
 })

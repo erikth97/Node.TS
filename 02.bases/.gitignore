@@ -6,3 +6,8 @@ dist-ssr
 *.log
 
 .DS_Store
+
+coverange
+
+.gitignore
+
