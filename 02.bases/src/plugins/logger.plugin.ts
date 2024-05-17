@@ -31,7 +31,10 @@ export const buildLogger = (service: string) => {
             logger.log('info', {message, service})
         },
         error: (message: string) => {
-            logger.error('error', {message, service})
+            logger.error('error', {
+                message, 
+                service,
+            })
         }
     }
 
