@@ -60,3 +60,4 @@
 {"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-08T18:11:19.670Z"}
 {"level":"info","message":"funciona correctamente","service":"app.js","timestamp":"2024-05-10T17:58:42.326Z"}
 {"level":"error","message":"error Esto es un error","service":"app.js","timestamp":"2024-05-10T17:58:42.330Z"}
+{"level":"info","message":"test message","service":"test service","timestamp":"2024-05-22T06:02:40.849Z"}
