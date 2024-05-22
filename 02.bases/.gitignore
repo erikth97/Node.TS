@@ -1,4 +1,4 @@
-node_modules
+node_modules/
 dist
 dist-ssr
 *.local
@@ -7,7 +7,6 @@ dist-ssr
 
 .DS_Store
 
-coverange
+coverange/
 
-.gitignore
 
